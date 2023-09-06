@@ -9,9 +9,12 @@ function updateHoldset() {
     if (selected_year == "2016") {
         holds = holds_2016
         climbs = climbs_2016
-    } else {
+    } else if (selected_year == "2017"){
         holds = holds_2017
         climbs = climbs_2017
+    } else {
+        holds = holds_2019
+        climbs = climbs_2019
     }
 
     var container = document.getElementById("moon-board");
