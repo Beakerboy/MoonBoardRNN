@@ -20,6 +20,13 @@ function clear_board() {
         myClasses[i].classList.add('m-fadeOut');
         myClasses[i].classList.remove('m-fadeIn');
     }
+    var selected_year = document.querySelector('input[name="year"]:checked').value;
+    var background = document.querySelector('[title="MoonBoard Wall"]')
+    if (selected_year == 2020) {
+        background.style.backgroundImage = 'url("../img/minimoonboard.png")';
+    } else {
+        background.style.backgroundImage = 'url("../img/moonboard.png")';
+    }
 }
 
 function random_climb() {
@@ -28,7 +35,7 @@ function random_climb() {
     var background = document.querySelector('[title="MoonBoard Wall"]')
     //display(climbs[model][index].moves)
     display_grades(climbs[model][index].grade)
-    //background.style.backgroundImage = "url("+climbs[model][index].file_name+")";
+    //var background = document.querySelector('[title="MoonBoard Wall"]')
 }
 
 function display(moves) {
