@@ -22,7 +22,7 @@ function clear_board() {
     }
     var selected_year = document.querySelector('input[name="year"]:checked').value;
     var background = document.querySelector('[title="MoonBoard Wall"]')
-    if (selected_year == 2020) {
+    if (selected_year == "2020") {
         background.style.backgroundImage = 'url("../img/minimoonboard.png")';
     } else {
         background.style.backgroundImage = 'url("../img/moonboard.png")';
