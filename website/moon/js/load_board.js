@@ -28,7 +28,7 @@ function random_climb() {
     var background = document.querySelector('[title="MoonBoard Wall"]')
     //display(climbs[model][index].moves)
     display_grades(climbs[model][index].grade)
-    background.style.backgroundImage = "url("+climbs[model][index].file_name+")";
+    //background.style.backgroundImage = "url("+climbs[model][index].file_name+")";
 }
 
 function display(moves) {
