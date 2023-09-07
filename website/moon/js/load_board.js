@@ -33,9 +33,8 @@ function random_climb() {
     var model = document.querySelector('input[name="model"]:checked').value;
     var index = Math.floor(Math.random() * climbs[model].length)
     var background = document.querySelector('[title="MoonBoard Wall"]')
-    //display(climbs[model][index].moves)
+    display(climbs[model][index].moves)
     display_grades(climbs[model][index].grade)
-    //var background = document.querySelector('[title="MoonBoard Wall"]')
 }
 
 function display(moves) {
