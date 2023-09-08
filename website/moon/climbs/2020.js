@@ -1,1 +1,1 @@
-var climbs_2020 = {"original": [{"moves": ["H6", "I5", "J4", "F8", "E11", "C11", "A8", "F10", "F12"], "grade": {"original": "V4", "XGBoost": "V4", "Keras MLP": "V4", "Random Forest": "V3", "Keras LSTM": "V3"}}]}
+var climbs_2020 = {"lstm": [{"moves": ["H6", "I5", "J4", "F8", "E11", "C11", "A8", "F10", "F12"], "grade": {"original": "V4", "XGBoost": "V4", "Keras MLP": "V4", "Random Forest": "V3", "Keras LSTM": "V3"}}]}
