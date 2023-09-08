@@ -24,10 +24,10 @@ function clear_board() {
     var background = document.querySelector('[title="MoonBoard Wall"]')
     if (selected_year == "2020") {
         background.style.backgroundImage = 'url("moon/img/minimoonboard.png")';
-        background.style.height = '699';
+        background.style.height = '699px';
     } else {
         background.style.backgroundImage = 'url("moon/img/moonboard.png")';
-        background.style.height = '1000';
+        background.style.height = '1000px';
     }
 }
 
